@@ -12,6 +12,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule,routingComponents } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -20,7 +21,7 @@ import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,   
-    routingComponents
+    routingComponents, NavbarComponent
   ],
   imports: [
     BrowserModule,

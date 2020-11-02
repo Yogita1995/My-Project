@@ -1,0 +1,247 @@
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444;
+  }
+  
+  a {
+    color: #428bca;
+  }
+  
+  a:hover {
+    color: #9eccf4;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  
+  #header {
+    height: 70px;
+    transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 10px 0;
+    background: #362957;
+    z-index: 997;
+  }
+  
+  #header .logo h1 {
+    font-size: 28px;
+    margin: 0;
+    padding: 10px 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  #header .logo h1 a, #header .logo h1 a:hover {
+    color: #1c5c93;
+    text-decoration: none;
+  }
+  
+  
+  .nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-menu > ul > li {
+    position: relative;
+    white-space: nowrap;
+    float: left;
+  }
+  
+  .nav-menu a {
+    display: block;
+    position: relative;
+    color: white;
+    padding: 12px 15px;
+    transition: 0.3s;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+    color: yellow;
+    text-decoration: none;
+  }
+  
+  .nav-menu .drop-down ul {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    padding: 10px 0;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: ease all 0.3s;
+  }
+  
+  .nav-menu .drop-down:hover > ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+  
+  .nav-menu .drop-down li {
+    min-width: 180px;
+    position: relative;
+  }
+  
+  .nav-menu .drop-down ul a {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+    color: #103453;
+  }
+  
+  .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul li:hover > a {
+    color: #428bca;
+  }
+  
+  .nav-menu .drop-down > a:after {
+    content: "\ea99";
+    font-family: IcoFont;
+    padding-left: 5px;
+  }
+  
+  .nav-menu .drop-down .drop-down ul {
+    top: 0;
+    left: 100%;
+  }
+  
+  .nav-menu .drop-down .drop-down:hover > ul {
+    opacity: 1;
+    top: 0;
+  }
+  
+  .nav-menu .drop-down .drop-down > a {
+    padding-right: 35px;
+  }
+  
+  .nav-menu .drop-down .drop-down > a:after {
+    content: "\eaa0";
+    font-family: IcoFont;
+    position: absolute;
+    right: 15px;
+  }
+  
+  @media (max-width: 1366px) {
+    .nav-menu .drop-down .drop-down ul {
+      left: -90%;
+    }
+    .nav-menu .drop-down .drop-down:hover > ul {
+      left: -100%;
+    }
+    .nav-menu .drop-down .drop-down > a:after {
+      content: "\ea9d";
+    }
+  }
+  
+  
+  
+  .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+    background-color: #428bca;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: #444;
+  }
+  
+  a {
+    color: #428bca;
+  }
+  
+  a:hover {
+    color: #9eccf4;
+    text-decoration: none;
+  }
+  
+  
+  .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+    background-color: #428bca;
+  }
+  
+  
+  .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+    background-color: #428bca;
+  }
+  .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+    background-color: #428bca;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  a {
+    color: #47b2e4;
+  }
+  
+  a:hover {
+    color: #73c5eb;
+    text-decoration: none;
+  }
+  
+  
+  
+  .active {
+    background-color: #362957;
+    color: white;
+  }
+  a:hover {
+    color: #73c5eb;
+    text-decoration: none;
+  }
+  
+  .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+    background-color: #428bca;
+  }
+  a {
+    color: #47b2e4;
+  }
+  
+  a:hover {
+    color: #73c5eb;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-family: "Jost", sans-serif;
+  }
+  
+  /*--------------------------------------------------------------
+  # Preloader
+  --------------------------------------------------------------*/
+  
+  /*--------------------------------------------------------------
+  # Back to top button
+  --------------------------------------------------------------*/
+  
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  /* Desktop Navigation */
+  
+  /* Get Startet Button */
+  
+  /* Mobile Navigation */
+  
+  /*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+  /* Slider */
